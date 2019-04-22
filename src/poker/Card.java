@@ -53,18 +53,34 @@ public class Card {
         return suitReturn;
     }
     
+    /**
+     * 
+     * @return Rank of playing card. 
+     */
     public int getRank() {
         return rank;
     }
 
+    /**
+     * 
+     * @param rank.  Set rank of playing card.
+     */
     public void setRank(int rank) {
         this.rank = rank;
     }
 
+    /**
+     * 
+     * @return Suit of playing card.
+     */
     public int getSuit() {
         return suit;
     }
 
+    /**
+     * 
+     * @param suit.  Set suit of playing card.
+     */
     public void setSuit(int suit) {
         this.suit = suit;
     }

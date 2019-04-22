@@ -11,10 +11,18 @@ public class Hand {
         hand = new Card[5];
     }
 
+    /**
+     * 
+     * @param hand.  Set hand from input Card array.
+     */
     public void setHand(Card[] hand) {
         this.hand = hand;
     }
 
+    /**
+     * 
+     * @return Hand of playing cards.
+     */
     public Card[] getHand() {
         return hand;
     }
